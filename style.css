@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wdth,wght@75..100,400..700&display=swap');
+
+:root {
+    --cor1:#925836;
+    --cor2:#855f3e;
+    --cor3:#BF9075;
+    --cor4:#D9BFB0;
+    --cor5:#F2F2F2;
+    
+    --fonte-destaque: "DynaPuff", system-ui;
+}
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+     background-color: var(--cor4); 
+
+}
+
+header {
+    background-image: linear-gradient(to left, var(--cor1), var(--cor4));
+    color: white;
+    height: 300px;
+    padding: 5px;
+    margin: 0px 0px 5px 0px; 
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.164); 
+}
+
+header img {
+    display: block;
+    max-width: 420px;
+    margin: auto;
+    margin-top: 60px;        
+}
+
+nav {     
+    position: absolute;
+    right: 4%;
+    top: 3%;
+}
+
+nav a {
+    font-family: var(--fonte-destaque);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;            
+}
+
+nav a:hover {
+    background-color: var(--cor5);
+    color: black;
+    border-radius: 5px;
+}
+
+main {
+    background-color: var(--cor4);   
+}
+
+main h2 {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.300);    
+}
+
+main #rede {
+    text-align: left;
+    margin-left: 15%;   
+    
+}
+
+main > #rede > a {
+    margin: 0px 5px 0px 5px;
+}
+
+main > #rede > a:hover {
+    opacity: 0.5;
+    
+}
+
+main p {    
+    text-align: center;
+    text-indent: 10px;
+    line-height: 2em;
+    font-size: 1.2em;
+    max-width: 1500px;
+    margin: auto;         
+}
+
+main div {
+    text-align: center;       
+}
+
+main > div > img {
+    border-radius: 25px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.288);
+    padding: 0px 5px 0px 5px;
+}
+
+main .valor {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    margin: 30px auto;    
+}
+
+main .del {
+    font-size: 1.5em;
+}
+
+main .strong {    
+    font-size: 2.8em;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.300);        
+}
+
+aside {
+    background-color: var(--cor4);    
+}
+
+aside h2 {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+    padding: 10px;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.300);
+}
+  
+aside p {    
+    text-align: center;
+    text-indent: 10px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    max-width: 1500px;
+    margin: auto; 
+}
+
+aside div.video {    
+    text-align: center;       
+    position: relative;
+    padding: 10%;     
+    min-height: 200px;    
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+    max-height: 500px;        
+}
+
+footer {
+     background-image: linear-gradient(to right, var(--cor1), var(--cor4));
+    color: white;
+    text-align: center;       
+}
+
+
+ 
